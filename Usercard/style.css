@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 10px;
+  }
+
+  .username {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .full-name {
+    color: #A61111;
+    margin-bottom: 10px;
+  }
+
+  .details {
+    color: #008080;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .email {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .email:hover {
+    color: #007bff;
+  }
